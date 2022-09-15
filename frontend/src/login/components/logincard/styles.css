@@ -1,0 +1,45 @@
+.psicoenvolver-container-login {
+    margin: 50px;
+}
+
+#logo {
+    max-width: 185px;
+}
+
+.imgFamilia {
+    max-width: 50%;
+}
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLogin {
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    height: 150px;
+    background-color: #263238;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .login {
+        display: block;
+    }
+
+    .imgFamilia {
+        display: none;
+    }
+
+    .footerLogin{
+        font-size: 10px;
+    }
+
+}

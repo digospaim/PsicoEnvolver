@@ -1,9 +1,16 @@
-import './App.css';
+import "bootstrap/dist/css/bootstrap.css";
+import LoginCard from './login/components/logincard';
 
 function App() {
 
   return (
-    <h1>PiscoEnvolver</h1>
+    <>
+      <main className="psicoenvolver-container">
+        <section id="login">
+          <LoginCard />
+        </section>
+      </main>
+    </>
   );
 
 };
