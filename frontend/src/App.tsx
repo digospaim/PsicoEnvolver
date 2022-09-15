@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
-import LoginCard from './login/components/logincard';
+import LoginCard from './login/components/LoginCard';
 
 function App() {
 
